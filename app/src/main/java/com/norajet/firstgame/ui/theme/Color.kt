@@ -1,4 +1,4 @@
-package com.norajet.timertracker.ui.theme
+package com.norajet.firstgame.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

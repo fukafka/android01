@@ -1,4 +1,4 @@
-package com.norajet.timertracker
+package com.norajet.firstgame
 
 import org.junit.Test
 

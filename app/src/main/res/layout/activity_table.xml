@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:stretchColumns="1"
+    android:background="#333333">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:text="Hello TableLayout"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:background="#80808080"
+        android:textStyle="bold"/>
+    <TableRow>
+        <TextView
+            style="@style/TableText"
+            android:gravity="center"
+            android:text="Open..." />
+        <TextView
+            style="@style/TableText"
+            android:gravity="end"
+            android:text="Ctrl-O"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            style="@style/TableText"
+            android:gravity="center"
+            android:text="Save..." />
+        <TextView
+            style="@style/TableText"
+            android:gravity="end"
+            android:text="Ctrl-S"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            style="@style/TableText"
+            android:gravity="center"
+            android:text="      Save As..."/>
+        <TextView
+            style="@style/TableText"
+            android:gravity="end"
+            android:text="Ctrl-Shift-S"/>
+    </TableRow>
+    <TableRow
+        android:background="@drawable/rowtopline">
+        <TextView
+            style="@style/TableText"
+            android:text = "X    Import..."/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            style="@style/TableText"
+            android:text = "X    Export..."
+            />
+        <TextView
+            style="@style/TableText"
+            android:gravity="end"
+            android:text="Ctrl-E"/>
+    </TableRow>
+    <TableRow
+        android:background="@drawable/rowtopline">
+        <TextView
+            style="@style/TableText"
+            android:text="       Quit"/>
+    </TableRow>
+</TableLayout>

@@ -10,18 +10,38 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TimerTracker">
+        android:theme="@style/Theme.FirstGame">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.TimerTracker">
+            android:theme="@style/Theme.FirstGame">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:exported="true"
+            android:label="LinearLayout"/>
+        <activity
+            android:name=".TableLayoutActivity"
+            android:exported="true"
+            android:label="TableLayout"/>
+        <activity
+            android:name=".ConstraintActivity1"
+            android:exported="true"
+            android:label="Constraint1"/>
+        <activity
+            android:name=".ConstraintActivity2"
+            android:exported="true"
+            android:label="Constraint2"/>
+        <activity
+            android:name=".ComposeActivity"
+            android:exported="true"
+            android:label="Compose"/>
     </application>
 
 </manifest>
